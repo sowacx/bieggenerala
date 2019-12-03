@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bieg-generala/static/css/main.b100e6da.chunk.css",
-    "main.js": "/bieg-generala/static/js/main.08dcc21d.chunk.js",
-    "main.js.map": "/bieg-generala/static/js/main.08dcc21d.chunk.js.map",
-    "runtime-main.js": "/bieg-generala/static/js/runtime-main.b998417d.js",
-    "runtime-main.js.map": "/bieg-generala/static/js/runtime-main.b998417d.js.map",
-    "static/js/2.96cf753a.chunk.js": "/bieg-generala/static/js/2.96cf753a.chunk.js",
-    "static/js/2.96cf753a.chunk.js.map": "/bieg-generala/static/js/2.96cf753a.chunk.js.map",
-    "index.html": "/bieg-generala/index.html",
-    "precache-manifest.e495233ad2a29ff879fa86012a353c36.js": "/bieg-generala/precache-manifest.e495233ad2a29ff879fa86012a353c36.js",
-    "service-worker.js": "/bieg-generala/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/bieg-generala/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/bieg-generala/static/media/logo.25bf045c.svg"
+    "main.css": "/bieg-generala-app/static/css/main.b100e6da.chunk.css",
+    "main.js": "/bieg-generala-app/static/js/main.f5d1d33f.chunk.js",
+    "main.js.map": "/bieg-generala-app/static/js/main.f5d1d33f.chunk.js.map",
+    "runtime-main.js": "/bieg-generala-app/static/js/runtime-main.21595bca.js",
+    "runtime-main.js.map": "/bieg-generala-app/static/js/runtime-main.21595bca.js.map",
+    "static/js/2.96cf753a.chunk.js": "/bieg-generala-app/static/js/2.96cf753a.chunk.js",
+    "static/js/2.96cf753a.chunk.js.map": "/bieg-generala-app/static/js/2.96cf753a.chunk.js.map",
+    "index.html": "/bieg-generala-app/index.html",
+    "precache-manifest.ef9d27bc0893eabb8cf9de0a7707d745.js": "/bieg-generala-app/precache-manifest.ef9d27bc0893eabb8cf9de0a7707d745.js",
+    "service-worker.js": "/bieg-generala-app/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/bieg-generala-app/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/bieg-generala-app/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b998417d.js",
+    "static/js/runtime-main.21595bca.js",
     "static/js/2.96cf753a.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.08dcc21d.chunk.js"
+    "static/js/main.f5d1d33f.chunk.js"
   ]
 }
