@@ -1,3 +1,13 @@
+@media screen and (min-width: 980px) {
+  nav .nav-container {
+    width: 900px;
+  }
+
+  .content {
+    width: 900px;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,4 +20,121 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+nav {
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+nav .nav-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.nav-links {
+  width: 300px;
+  float: right;
+}
+.nav-logo {
+  float: left;
+  position: absolute;
+}
+.nav-logo img {
+  height: 80px;
+  margin-left: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+nav li a,
+nav a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a.profile {
+  padding: 2px 16px !important;
+  justify-content: flex-end;
+}
+
+nav li a:hover {
+  background-color: #e40014;
+  color: #fff;
+}
+
+nav button {
+  margin-top: 13px;
+}
+
+header {
+  background-image: url(./img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  height: 700px;
+}
+
+.header-container {
+  width: 250px;
+  margin-left: 10%;
+  padding-top: 100px;
+  display: block;
+  position: relative;
+}
+
+.header-description {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.content-container {
+  margin: 0px;
+  padding-top: 20px;
+  background: #ddd;
+  clear: both;
+  display: block;
+  position: relative;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.content p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+.content img {
+  width: 90%;
+  margin: 10px;
+}
+
+.content ul {
+  text-align: left;
+  margin-left: 100px;
 }

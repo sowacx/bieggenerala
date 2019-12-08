@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-import React, { Component } from 'react';
+import "./index.css";
+import Nav from "./Nav";
+import Home from "./Home";
+import Runners from "./Runners";
+import Results from "./Results";
+import React, { Component } from "react";
 import { HashRouter, Route, Link } from "react-router-dom";
 
-function App() {
-  return (
-    <HashRouter basename='/'>
-      <div>
-        <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        </ul>
-        <hr />
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-      </div>
-    </HashRouter>
-  );
-}
+class App extends Component {
+  constructor(props) {
+    super(props);
+  }
 
-const Home = () => <div><h2>Home</h2></div>
-const About = () => <div><h2>About</h2></div>
+  render() {
+    return (
+      <div className="body">
+        <Nav />
+        <Route path="/" exact render={props => <Home />} />
+        <Route path="/Runners" exact render={props => <Runners />} />
+        <Route path="/Results" exact render={props => <Results />} />
+      </div>
+    );
+  }
+}
 
 export default App;
