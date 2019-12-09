@@ -131,6 +131,8 @@ class Runners extends Component {
     }
   ];
 
+  data = [];
+
   render() {
     return (
       <div className="content-container">
