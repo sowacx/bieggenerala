@@ -147,3 +147,8 @@ header {
     width: 900px;
   }
 }
+
+table#runners th,
+table#walkers th {
+  background: red;
+}
