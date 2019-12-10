@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import trasa from "./img/trasa.jpg";
 import wiki from "./img/wiki.jpg";
 class Home extends PureComponent {
     render() {

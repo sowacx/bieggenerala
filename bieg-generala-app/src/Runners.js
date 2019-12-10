@@ -180,7 +180,7 @@ class Runners extends Component {
 
         return (
             <div className="content-container">
-                <div className="content">
+                <div className="content content-runners">
                     <h1>Lista uczestników biegu:</h1>
                     {tableRunners}
                     <h1>Lista uczestników nordic walking:</h1>

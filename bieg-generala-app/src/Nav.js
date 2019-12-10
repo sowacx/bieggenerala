@@ -18,9 +18,12 @@ class Nav extends Component {
                             <li>
                                 <Link to="/Runners">Uczestincy</Link>
                             </li>
-                            <li>
+                            {/* <li>
+                                <Link to="/Rules">Regulamin</Link>
+                            </li> */}
+                            {/* <li>
                                 <Link to="/Results">Wyniki</Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
