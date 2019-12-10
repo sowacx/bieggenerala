@@ -48,11 +48,14 @@ class Home extends PureComponent {
                             kilometrów. Najodważniejsi uczesnity będą zatem
                             biegli 10 okrążeń, tak aby na mecie mieć przebyte
                             101 kilometrów.
-                            <img
-                                src={trasa}
-                                alt="podgląd trasy"
-                                className="img-trasa"
-                            ></img>
+                            <iframe
+                                title="Trasa biegu"
+                                frameBorder="0"
+                                scrolling="no"
+                                src="https://www.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=44342960&measures=on&title=off&near=off&images=off&maptype=M&metricunits=on"
+                                width="600"
+                                height="700"
+                            ></iframe>
                             <br />
                             <em>Trasa pojedynczego okrążenia</em>
                         </p>
