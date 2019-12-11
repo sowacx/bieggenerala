@@ -52,7 +52,7 @@ class Home extends PureComponent {
                                 frameBorder="0"
                                 scrolling="no"
                                 src="https://www.wikiloc.com/wikiloc/spatialArtifacts.do?event=view&id=44342960&measures=on&title=off&near=off&images=off&maptype=M&metricunits=on"
-                                width="600"
+                                width="100%"
                                 height="700"
                             ></iframe>
                             <br />

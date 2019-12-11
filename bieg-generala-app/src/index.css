@@ -5,6 +5,8 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    bottom: 0;
+    height: 100%;
 }
 
 code {
@@ -12,61 +14,15 @@ code {
         monospace;
 }
 
-nav {
-    background-color: #000;
-    height: 50px;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-}
-
-nav .nav-container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-}
-.nav-links {
-    width: 300px;
-    float: right;
-}
 .nav-logo {
-    float: left;
-    position: absolute;
+    width: 100px;
 }
 .nav-logo img {
     height: 80px;
-    margin-left: 30px;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-}
-
-nav li a,
-nav a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav a.profile {
-    padding: 2px 16px !important;
-    justify-content: flex-end;
-}
-
-nav li a:hover {
-    background-color: #e40014;
-    color: #fff;
-}
-
-nav button {
-    margin-top: 13px;
+    float: left;
+    top: 0;
+    position: fixed;
+    z-index: 2000;
 }
 
 header {
@@ -84,7 +40,7 @@ header {
 }
 
 .header-container {
-    width: 250px;
+    width: 270px;
     margin-left: 10%;
     padding-top: 100px;
     display: block;
@@ -92,19 +48,19 @@ header {
 }
 
 .header-description {
-    padding: 50px;
+    padding: 20px;
     background: rgba(0, 0, 0, 0.4);
 }
 
 .content-container {
     margin: 0px;
     padding-top: 20px;
-    background: #eee;
     clear: both;
     display: block;
     position: relative;
 }
-.content-runners {
+.content-runners,
+.content-rules {
     margin-top: 50px;
 }
 
