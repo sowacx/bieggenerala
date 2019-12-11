@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/bieg-generala-app/static/css/main.b100e6da.chunk.css",
-    "main.js": "/bieg-generala-app/static/js/main.f5d1d33f.chunk.js",
-    "main.js.map": "/bieg-generala-app/static/js/main.f5d1d33f.chunk.js.map",
-    "runtime-main.js": "/bieg-generala-app/static/js/runtime-main.21595bca.js",
-    "runtime-main.js.map": "/bieg-generala-app/static/js/runtime-main.21595bca.js.map",
-    "static/js/2.96cf753a.chunk.js": "/bieg-generala-app/static/js/2.96cf753a.chunk.js",
-    "static/js/2.96cf753a.chunk.js.map": "/bieg-generala-app/static/js/2.96cf753a.chunk.js.map",
-    "index.html": "/bieg-generala-app/index.html",
-    "precache-manifest.ef9d27bc0893eabb8cf9de0a7707d745.js": "/bieg-generala-app/precache-manifest.ef9d27bc0893eabb8cf9de0a7707d745.js",
-    "service-worker.js": "/bieg-generala-app/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/bieg-generala-app/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/bieg-generala-app/static/media/logo.25bf045c.svg"
+    "main.css": "/static/css/main.ffaeae83.chunk.css",
+    "main.js": "/static/js/main.c84c2a26.chunk.js",
+    "main.js.map": "/static/js/main.c84c2a26.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.66026fac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.66026fac.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.49cd4ffd.chunk.js": "/static/js/2.49cd4ffd.chunk.js",
+    "static/js/2.49cd4ffd.chunk.js.map": "/static/js/2.49cd4ffd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4424eb77c69f88a3b1467b7f6d9eec11.js": "/precache-manifest.4424eb77c69f88a3b1467b7f6d9eec11.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.ffaeae83.chunk.css.map": "/static/css/main.ffaeae83.chunk.css.map",
+    "static/media/index.css": "/static/media/header-bg.4125d401.jpg",
+    "static/media/herb.png": "/static/media/herb.cd8e2ea0.png",
+    "static/media/wiki.jpg": "/static/media/wiki.fc7b8c76.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.21595bca.js",
-    "static/js/2.96cf753a.chunk.js",
-    "static/css/main.b100e6da.chunk.css",
-    "static/js/main.f5d1d33f.chunk.js"
+    "static/js/runtime-main.66026fac.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.49cd4ffd.chunk.js",
+    "static/css/main.ffaeae83.chunk.css",
+    "static/js/main.c84c2a26.chunk.js"
   ]
 }
