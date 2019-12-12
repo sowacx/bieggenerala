@@ -60,15 +60,15 @@ header {
   position: relative;
 }
 .content-runners,
-.content-rules {
+.content-rules-header {
   margin-top: 50px;
+  text-align: center;
 }
 
 .content {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  text-align: center;
 }
 
 body {
