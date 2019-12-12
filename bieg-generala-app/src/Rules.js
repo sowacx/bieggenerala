@@ -48,6 +48,8 @@ class Rules extends Component {
           <p>
             Trasa nie posiada atestu PZLA.
             <br />
+            W zawodach wezmą udział biegacze i nordic walkerzy.
+            <br />
             Całkowity dystans biegu to 101 kilometrów, na które składa się 10
             okrążeń. Trasa wiedzie przez ścieżki o naturalnym podłożu terenu
             wśród okolicznych łąk i lasów.
