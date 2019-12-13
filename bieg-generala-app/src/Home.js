@@ -56,7 +56,7 @@ class Home extends PureComponent {
             <h3>Program</h3>
             <div>
               <h5>28.12.2019</h5> <br></br>
-              17:00-18:30 Otwarcie biura zawodów - wydawanie numerów startowych
+              16:30-18:30 Otwarcie biura zawodów - wydawanie numerów startowych
               <br></br>
               18:30 - Odprawa przed biegiem<br></br>
               18:45 - Uroczyste przejście na cmentarz i zapalenie znicza,
@@ -87,19 +87,28 @@ class Home extends PureComponent {
               pomogły w organizacji biegu:
             </p>
             <ul>
-              <li>Koło gospodyń wiejskich w Lusowie</li>
+              <li>Gmina Tarnowo Podgórne</li>
+              <li>Koło Gospodyń Wiejskich w Lusowie</li>
+              <li>Millano Group, Przeźmierowo</li>
               <li>
                 Muzeum Powstańców Wielkopolskich. im. Gen. Józefa Dowbora
                 Muśnickiego w Lusowie
               </li>
+              <li>MS Inwest sp. z o. o., Kiekrz</li>
               <li>Ochotnicza Straż Pożarna w Lusowie</li>
+              <li>OSIR Tarnowo Podgórne</li>
               <li>Pałac Jaśminowy Batorowo - Danuta i Marek Kucembowie</li>
               <li>Rada Sołecka, Lusowo</li>
               <li>Restauracja Stara Wozownia, Lusowo - Izabela Hałas</li>
+              <li>Restauracja Włoska Robota, Lusówko</li>
               <li>TAR-DROG, Tarnowo Podgórne</li>
-              <li>Tarnowski Łącznik, Tarnowo Podgórne, Hubert Szymkowiak</li>
+              <li>Tarnowski Łącznik, Tarnowo Podgórne</li>
               <li>Towarzystwo Pamięci Gen. Józefa Dowbora Muśnickiego</li>
               <li>Zespół Pieśni i Tańca Lusowiacy</li>
+              <li>
+                Podziękowania dla uczniów SP w Lusowie za pomoc w oznaczeniu
+                trasy.
+              </li>
             </ul>
           </div>
         </div>

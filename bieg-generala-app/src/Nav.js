@@ -15,7 +15,7 @@ class Navigation extends Component {
             <Nav.Link href="/">O biegu</Nav.Link>
             <Nav.Link href="/Runners">Uczestnicy</Nav.Link>
             <Nav.Link href="/Rules">Regulamin</Nav.Link>
-            {/* <Nav.Link href="/Results">Wyniki</Nav.Link> */}
+            <Nav.Link href="/Results">Wyniki</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -13,18 +13,20 @@ class Rules extends Component {
           <hr></hr>
           <h3>1. ORGANIZATOR</h3>
           <p>
-            Sołtys i rada sołecka wsi Lusowo, OSP Lusowo. Patronat Towarzystwa
+            Sołtys i Rada Sołecka wsi Lusowo, OSP Lusowo. Patronat Towarzystwa
             Pamięci Gen. Józefa Dowbora Muśnickiego i Muzeum Powstańców
             Wielkopolskich. im. Gen. Józefa Dowbora Muśnickiego w Lusowie.
             Kierownik biegu Jolanta Witczak
           </p>
           <h3>2. CEL</h3>
           <p>
-            Upamiętnienie 101 rocznicy Powstania Wielkopolskiego oraz uczczenia
+            Upamiętnienie 101 rocznicy Powstania Wielkopolskiego oraz uczczenie
             Generała Józefa Dowbora-Muśnickiego <br />
-            Popularyzacja biegania jako najprostszej formy aktywności fizycznej.{" "}
+            Popularyzacja biegania jako najprostszej formy aktywności fizycznej.
             <br />
             Promocja sołectwa Lusowa i gminy Tarnowo Podgórne. <br />
+            Przedstawienie walorów rekreacyjnych i przyrodniczych Jeziora
+            Lusowskiego i przyległych terenów.
           </p>
           <h3>3. TERMIN I MIEJSCE </h3>
           <p>
@@ -80,8 +82,8 @@ class Rules extends Component {
             Organizator nie przewiduje dopuszczenia do biegu osób poniżej 18
             roku życia.
             <br />
-            Bieg odbywa się bez profesjonalnego pomiaru czasu ale na czas
-            Maratonu zostanie włączony czas zegarowy wg którego będą podawane
+            Bieg odbywa się bez profesjonalnego pomiaru czasu, ale podczas
+            zawodów zostanie włączony czas zegarowy wg którego będą podawane
             czasy końcowe.
             <br />
             Każdy uczestnik musi być wyposażony czołówkę/latarkę oświetlającą
@@ -89,6 +91,12 @@ class Rules extends Component {
             Podczas biegu zawodnicy muszą posiadać przy sobie włączony telefon z
             wpisanym numerem medycznej obsługi biegu 604 444 690 -
             zabezpieczenie medyczne.
+            <br />
+            Organizator zapewnia opiekę medyczną w postaci karetki i
+            kwalifikowanego ratownika w czasie trwania biegu oraz po jego
+            zakończeniu.W biurze zawodów zawodnik zobowiązany jest okazać
+            aktualne badanie lekarskie, bądź też podpisać oświadczenie o starcie
+            na własną odpowiedzialność.
           </p>
           <h3>6. KLASYFIKACJA KOŃCOWA I NAGRODY</h3>
           <p>
