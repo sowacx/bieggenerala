@@ -4,6 +4,7 @@ import Home from "./Home";
 import Runners from "./Runners";
 import Results from "./Results";
 import Rules from "./Rules";
+import DummyTest from "./DummyTest";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -13,10 +14,8 @@ class App extends Component {
       <Router>
         <div className="body">
           <Navigation />
-          <Route path="/" exact render={props => <Home />} />
-          <Route path="/Runners" exact render={props => <Runners />} />
-          <Route path="/Results" exact render={props => <Results />} />
-          <Route path="/Rules" exact render={props => <Rules />} />
+          <Route path="/" exact render={props => <Home />} />          
+          <Route path="/Results" exact render={props => <Results />} />        
         </div>
       </Router>
     );

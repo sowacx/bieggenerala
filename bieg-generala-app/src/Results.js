@@ -108,16 +108,12 @@ class Results extends Component {
 
   componentDidMount() {
     Tabletop.init({
-      key: "1UdU_Y4VGsb_l3Q5pqi1yWuK7Lbw8u8qfF7D5ofTwzuo",
+      key: "https://docs.google.com/spreadsheets/d/13xPQxvoyfftmV6gXiK2-iVGDeM5j3m27XMCQEUUNt1U/edit?usp=sharing",
       callback: googleData => {
         console.log(googleData.Bieg);
-        googleData.Bieg.headers = this.setHeaders(googleData.Bieg.columnNames);
-        googleData.NordicWalking.headers = this.setHeaders(
-          googleData.NordicWalking.columnNames
-        );
+        googleData.Bieg.headers = this.setHeaders(googleData.Bieg.columnNames);      
         this.setState({
-          runners: googleData.Bieg,
-          walkers: googleData.NordicWalking
+          runners: googleData.Bieg,          
         });
       },
       simpleSheet: false
@@ -138,6 +134,7 @@ class Results extends Component {
   render() {
     let tableRunners;
     let tableWalkers;
+
     if (this.state.runners)
       tableRunners = (
         <Table
@@ -167,10 +164,19 @@ class Results extends Component {
     return (
       <div className="content-container">
         <div className="content content-runners">
-          <h1>Wyniki biegu:</h1>
-          {tableRunners}
-          <h1>Wyniki nordic walking:</h1>
-          {tableWalkers}
+          <h1>Wyniki</h1>
+          <p>
+            Serdecznie dziękujemy wszystkim uczestinkom biegu. Mamy nadzieję, że
+            w przyszłym roku również uda nam się go zoorganizować a wy ponownie
+            staniecie na starcie
+          </p>
+          <p>
+            Niemniejsze podziękowania dla wszystkich osób, który przyczyniły się
+            do organizacji biegu. Dziękujemy za wasze wsparcie!
+          </p>
+
+          <h2>Wyniki biegu:</h2>
+          {tableRunners}          
         </div>
       </div>
     );
